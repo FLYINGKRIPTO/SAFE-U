@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/app_icon"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Women Safety"
+        android:layout_gravity="center"
+        android:background="@drawable/safe_u_text"
+        android:textColor="@color/color_primary"
+        />
+
+    <TextView
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/raleway_regular"
+        android:textStyle="bold"
+        android:text="Add to Primary Contacts"
+        android:textColor="@color/color_primary"
+        android:gravity="start"
+        android:textSize="24sp"
+        />
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:id="@+id/name">
+    <EditText
+        android:id="@+id/editText2"
+        android:fontFamily="@font/raleway_regular"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Person Name"
+        android:inputType="textPersonName" >
+
+    </EditText>
+</com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:id="@+id/mobile"
+        >
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_regular"
+
+            android:hint="Mobile Number"
+            android:inputType="phone" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+       android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_width="200dp"
+        android:textColor="@color/white"
+        android:background="@drawable/circular_button"
+        android:layout_height="60dp"
+        android:fontFamily="@font/raleway_regular"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:id="@+id/save"
+        android:text="Save"
+        />
+</LinearLayout>
