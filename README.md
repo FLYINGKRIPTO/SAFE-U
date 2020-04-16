@@ -1,8 +1,8 @@
 # SAFE-U Application
 ![AppLogo]
-(https://imgur.com/tDGbYW0)
+(https://imgur.com/tDGbYW0.png)
 ![AppLogo]
-(https://imgur.com/LLn31GE)
+(https://imgur.com/LLn31GE.png)
 
 ## This is an Android App for Women or any Female, which Will Call to an Emergency number, based on a specific voice command like "Help" . It will also send SMS with current GPS coordinates to those numbers.
 
@@ -24,10 +24,10 @@ User Registration requires following fields as user input
 4) Phone Number
 
 ![USER REGISTRATION]
-(https://imgur.com/8x3CGcq)
+(https://imgur.com/8x3CGcq.png)
 
 ![USER LOGIN]
-(https://imgur.com/eeh7ILu)
+(https://imgur.com/eeh7ILu.png)
 
 
 
