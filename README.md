@@ -1,6 +1,6 @@
 # SAFE-U Application
-![AppLogo]
-(https://imgur.com/tDGbYW0.png)
+
+[APP LOGO](https://i.imgur.com/eeh7ILu.png)
 ![AppLogo]
 (https://imgur.com/LLn31GE.png)
 
